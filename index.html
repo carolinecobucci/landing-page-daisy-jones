@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+    <title>Daisy Jones & The Six - Trailer</title>
+    <link rel="shortcut icon" href="src/images/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="fundo-video">
+        <video 
+            class="video" 
+            autoplay loop muted 
+            src="src/video/daisy-video-fundo.mp4" 
+            type="video.mp4"
+        ></video>
+    </div>
+
+    <header class="cabecalho">
+        <a href="index.html"> 
+            <img class="logo" src="src/images/logo-vinil.png" alt="Logo Vinil">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="https://www.amazon.com.br/Daisy-Jones-Six-hist%C3%B3ria-m%C3%BAsica/dp/8584391401/ref=sr_1_1?keywords=daisy+jones+and+the+six&qid=1674760779&sprefix=daisy%2Caps%2C237&sr=8-1" target="_blank">Livro</a></li>
+                <li><a href="https://www.audible.com/pd/Daisy-Jones-The-Six-Audiobook/1984845306" target="_blank">Audiobook</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img 
+                class="imagem-titulo" 
+                src="src/images/daisy-logo.png" 
+                alt="Daisy Jones & The Six logo"
+            />
+            <p class="descricao">
+                Em 1977, a banda Daisy Jones The Six saiu da obscuridade e alcançou o estrelato. Mas o grupo acabou abruptamente, deixando os fãs desolados. Décadas depois, os integrantes finalmente concordam em abrir o jogo e revelar a verdade.
+            </p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+
+        <img class="mario" src="src/images/daisy-band-photo.png" alt="Daisy Jones & The Six">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video-player" width="560" height="315" src="https://www.youtube.com/embed/Ek9GHcaqdOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
